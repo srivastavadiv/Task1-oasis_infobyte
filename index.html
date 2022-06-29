@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Monika Chiraniya</a>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-bar"></div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h4>Hello, my name is..</h4>
+            <h1>Monika <span>Chiraniya</span></h1>
+            <p>An Undergraduate, philonoist, passionate and<br>an aspiring Software Developer</p>
+        </div>
+        <a href="#" class="h-btn">Let's Talk</a>
+    </section>
+    
+    <section class="about" id="about">
+        <div class="img1">
+            <img src="images/about.webp">
+        </div>
+        <div class="text">
+            <h5>About Me</h5>
+            <h3>More about me..</h3>
+            <p>Hello! I am Monika<br>I am an Undergraduate student at United College of Engineering and Research. I am pursuing B.tech in Computer Science & Engineering. I am interested in learning new technologies and perpetually working on improving my skills at this time.<br>I believe in- <br>"Everything is easy if you are crazy. Nothing will be crazy if you are lazy."</p>
+            <a href="pdf/" class="btn">Download CV</a>
+            <a href="https://www.linkedin.com/in/monika-chiraniya-b14373194/" class="social-icon si-rounded si-small si-linkedin">
+                <i class='bx bxl-linkedin-square' ></i>
+            </a>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="center">
+            <h2>My Projects</h2>  
+        </div>
+        <div class="under-project">
+            <div class="row">
+                <i class='bx bx-dice-6'></i>
+                <h3>Connect4 Game</h3>
+                <h5>Technologies Used: Java 00P</h5><br>
+                <p>The objective is to connect four same-colored disks in a row, a column, or a diagonal before your opponent can do.There are two players to drop a disk alternately. Whenever a disk is dropped, the program re-displays the board on the console and determines the status of the game </p> 
+            </div>
+            <div class="row">
+                <i class='bx bxs-contact'></i>
+                <h3>PhoneBook Web Application</h3>
+                <h5>Technologies Used: HTML,Tomcat Server,CSS,MySQL, Javascript</h5>
+                <p>The simple PhoneBook Application in javascript is a simple personal diary-like system. The whole programming is in HTML, CSS, and JavaScript. This project will help the users to keep track of friends and family by managing in your contact list.</p> 
+            </div>
+            <div class="row">
+                <i class='bx bxs-thermometer'></i>
+                <h3>Temperature Convertor</h3>
+                <h5>Technologies Used: HTML, CSS, JavaScript</h5><br>
+                <p>This is Temperature Converter,a simple project developed using HTML, CSS, and JavaScript. This is a simple project that converts temperature from a Celcius unit to Fahrenheit and vice versa. This project is an interesting useful project.</p> 
+            </div>
+        </div>
+    </section>
+
+    <div class="skill" id="skills">
+        <h1 class="heading">Skills</h1>
+        <div class="container">
+            <div class="card">
+                <img src="images/java.jpg" class="img" alt="">
+                <div class="level">70%</div>
+                <h1 class="skill-name">JAVA</h1>
+            </div>
+            <div class="card">
+                <img src="images/html.png" class="img" alt="">
+                <div class="level">80%</div>
+                <h1 class="skill-name">HTML</h1>
+            </div>
+            <div class="card">
+                <img src="images/css.png" class="img" alt="">
+                <div class="level">80%</div>
+                <h1 class="skill-name">CSS</h1>
+            </div>
+            <div class="card">
+                <img src="images/sql.png" class="img" alt="">
+                <div class="level">65%</div>
+                <h1 class="skill-name">SQL</h1>
+            </div>
+            <div class="card">
+                <img src="images/c.jpg" class="img" alt="">
+                <div class="level">90%</div>
+                <h1 class="skill-name">C</h1>
+            </div>
+            <div class="card">
+                <img src="images/js.png" class="img" alt="">
+                <div class="level">50%</div>
+                <h1 class="skill-name">JavaScript</h1>
+            </div>
+        </div>
+    </div>
+    <section class="contact" id="contact">
+        <div class="img1">
+            <img src="images/contact.png">
+        </div>
+        <div class="contact-form">
+            <h2>Contact me</h2>
+            <h4>Thank You! for viewing my portfolio.</h4>
+            <p>I'm currently available for freelance work so feel free to contact me.<br>I am very approachable.</p>
+                <form class="contact-form">
+                    <input type="text" name="name" id="name" autocomplete="off" placeholder="name" required>
+                    <input type="text" name="email" id="email" autocomplete="off" placeholder="email" required>
+                    <textarea name="msg" id="msg" placeholder="Your message" autocomplete="off" required></textarea>
+                    <button type="submit" class="form-submit-btn">Send</button>
+                </form>
+        </div>
+    </section>
+    <div class="footer">
+        <i class='bx bxl-facebook-square'></i>
+        <i class='bx bxl-instagram' ></i>
+        <i class='bx bxl-linkedin-square' ></i>
+        <i class='bx bxl-github' ></i>
+        <i class='bx bxl-twitter' ></i>
+        <p>Developed by Monika Chiraniya</p>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
